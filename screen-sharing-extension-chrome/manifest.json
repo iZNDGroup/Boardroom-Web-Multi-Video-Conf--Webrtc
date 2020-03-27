@@ -13,12 +13,12 @@
     "persistent": false
   },
     "externally_connectable": {
-    "matches": ["http://demo.boardroom.work/*", "https://demo.boardroom.work/*"]
+    "matches": ["http://demo.boardroom.work/*", "https://boardroom.herokuapp.com/*", "https://demo.boardroom.work/*"]
   },
   "content_scripts": [ {
    "js": [ "content-script.js" ],
    "all_frames": true,
-   "matches": ["http://demo.boardroom.work/*", "https://boardroom2.herokuapp.com/*", "https://demo.boardroom.work/*"]
+   "matches": ["http://demo.boardroom.work/*", "https://boardroom.herokuapp.com/*", "https://demo.boardroom.work/*"]
   }],
   "icons": {
     "16": "logo16.png",
